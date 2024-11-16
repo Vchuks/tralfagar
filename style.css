@@ -7,6 +7,7 @@ body {
   background-color: #ffffff;
   font-family: "Mulish", sans-serif;
 }
+<<<<<<< HEAD
 #container{
   width: 1273px;
   height: 477px;
@@ -68,3 +69,63 @@ img{
     width: 100%;
   }
 }
+=======
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 7rem;
+}
+
+.header i {
+  display: none;
+}
+
+.brand-logo {
+  width: 11rem;
+}
+
+.brand-logo img {
+  width: 100%;
+}
+
+.nav-item{
+    color: #1F1534;
+    text-decoration: none;
+    padding-right: 2rem;
+    opacity: 50%;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav a:first-child{
+    opacity: 1;
+}
+nav a:last-child{
+    padding-right: 0;
+}
+
+
+
+
+@media (max-width:912px) {
+    .header{
+        padding: 1rem;
+    }
+
+    .header i{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+
+@media (min-width:800px) and (max-width:920px) {
+    .header{
+     padding: 2rem;
+    } 
+ }
+>>>>>>> origin/main
