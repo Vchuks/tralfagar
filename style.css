@@ -7,6 +7,67 @@ body {
   background-color: #ffffff;
   font-family: "Mulish", sans-serif;
 }
+#container{
+  width: 1273px;
+  height: 477px;
+  display: flex;
+  margin: auto;
+}
+img{
+  width: 650px;
+}
+#info{
+  width: 486px;
+  margin-left: auto;
+}
+#info h1{
+  font-size: 36px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+#info hr{
+  width: 56px;
+  height: 2px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 26px;
+  margin-bottom: 31px;
+}
+#info p{
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(125, 121, 135, 1);
+  padding-right: 36px;
+}
+#info a{
+  text-decoration: none;
+}
+#info button{
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(69, 143, 246, 1);
+  padding: 3px 51px 1px 51px;
+  border-radius: 55px;
+  border: 1.4px solid rgba(69, 143, 246, 1);
+  height: 56px;
+  width: auto;
+}
+
+@media (max-width:750px){
+  #container{
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    row-gap: 50px;
+  }
+  img{
+    width: 100%;
+  }
+  #info{
+    width: 100%;
+  }
+}
 
 .header {
   display: flex;
@@ -64,7 +125,7 @@ nav a:last-child{
     .header{
      padding: 2rem;
     } 
- }
+ 
 .hero {
   display: flex;
   padding: 3em 5em;
@@ -138,3 +199,4 @@ nav a:last-child{
     margin: 0 auto;
   }
 }
+
